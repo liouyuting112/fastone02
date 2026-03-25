@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Fastone.com — The Fastest Games in the Industry</title>
+  <meta name="description" content="Fastone.com B2B gaming platform. 100+ premium casino games, seamless API, 72h integration."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ═══════ NAV ═══════════════════════════════════ -->
+<header>
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">FAST<span>ONE</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html"   class="nav__link active">Home</a></li>
+        <li><a href="company.html" class="nav__link">Company</a></li>
+        <li><a href="games.html"   class="nav__link">Games</a></li>
+        <li><a href="contact.html" class="nav__link">Contact Us</a></li>
+      </ul>
+      <div class="nav__right">
+        <div class="lang-grp">
+          <button class="on">EN</button><button>CN</button><button>TH</button><button>JP</button>
+        </div>
+        <a href="contact.html" class="btn btn--red btn--sm">Get Started</a>
+      </div>
+      <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <nav class="nav__mobile">
+    <a href="index.html">Home</a>
+    <a href="company.html">Company</a>
+    <a href="games.html">Games</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="contact.html" style="color:var(--r)">Get Started →</a>
+  </nav>
+</header>
+
+<!-- ═══════ 1. HERO ══════════════════════════════ -->
+<section class="hero">
+  <div class="hero__bg" id="hero-bg"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__characters" id="hero-characters"></div>
+
+  <div class="container">
+    <div class="hero__content">
+      <div class="hero__pre rv">B2B Gaming Platform</div>
+      <h1 class="hero__title rv d1">
+        The Fastest<br>
+        Games in the<br>
+        <span class="red">Industry.</span>
+      </h1>
+      <p class="hero__sub rv d2">
+        100+ certified casino titles. Single API integration.
+        Seamless white-label deployment. Go live in 72 hours —
+        trusted by 3,000+ operators across 35 markets.
+      </p>
+      <div class="hero__ctas rv d3">
+        <a href="contact.html" class="btn btn--red">Get Started →</a>
+        <a href="games.html"   class="btn btn--outline">Explore Games</a>
+      </div>
+      <div class="hero__badge-row rv d4">
+        <div class="hero__badge">
+          <div class="hero__badge-num">100+</div>
+          <div class="hero__badge-lbl">Games</div>
+        </div>
+        <div class="hero__badge">
+          <div class="hero__badge-num">3,000+</div>
+          <div class="hero__badge-lbl">Operators</div>
+        </div>
+        <div class="hero__badge">
+          <div class="hero__badge-num">35+</div>
+          <div class="hero__badge-lbl">Markets</div>
+        </div>
+        <div class="hero__badge">
+          <div class="hero__badge-num">72h</div>
+          <div class="hero__badge-lbl">Integration</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 2. STATS ══════════════════════════════ -->
+<section class="stats">
+  <div class="stats__row container">
+    <div class="stats__cell rv">
+      <div class="stats__num"><span data-count="100">0</span><span class="stats__sfx">+</span></div>
+      <div class="stats__lbl">Games</div>
+    </div>
+    <div class="stats__cell rv d1">
+      <div class="stats__num"><span data-count="3000">0</span><span class="stats__sfx">+</span></div>
+      <div class="stats__lbl">Operators</div>
+    </div>
+    <div class="stats__cell rv d2">
+      <div class="stats__num"><span data-count="35">0</span><span class="stats__sfx">+</span></div>
+      <div class="stats__lbl">Markets</div>
+    </div>
+    <div class="stats__cell rv d3">
+      <div class="stats__num"><span data-count="12">0</span><span class="stats__sfx">+</span></div>
+      <div class="stats__lbl">Languages</div>
+    </div>
+    <div class="stats__cell rv d4">
+      <div class="stats__num"><span data-count="72">0</span><span class="stats__sfx">h</span></div>
+      <div class="stats__lbl">Integration</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 3. GAME SHOWCASE — 1 BIG + 4 SMALL ═══ -->
+<section class="section">
+  <div class="container">
+    <div class="showcase__head">
+      <div>
+        <div class="label rv">Featured Games</div>
+        <h2 style="font-size:clamp(1.8rem,3vw,2.6rem);font-weight:900;letter-spacing:-.04em;margin-top:12px;" class="rv d1">
+          Player Favourites
+        </h2>
+        <p style="font-size:.92rem;color:var(--g);margin-top:8px;max-width:440px;" class="rv d2">
+          Proven titles with exceptional engagement metrics across Asia, Europe and LatAm.
+        </p>
+      </div>
+      <a href="games.html" class="btn btn--outline-r rv">View All 55+ →</a>
+    </div>
+
+    <!-- 1 big + 2 small -->
+    <div class="showcase-grid rv d1" id="showcase-main">
+      <!-- Populated by app.js -->
+    </div>
+
+    <!-- 4 extra -->
+    <div class="showcase-grid-extra rv d2" id="showcase-extra">
+      <!-- Populated by app.js -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 4. WHAT WE DO ════════════════════════ -->
+<section class="section" style="background:var(--s1);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd);">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:52px;">
+      <div class="label rv" style="justify-content:center;margin-bottom:14px;">What We Do</div>
+      <h2 style="font-size:clamp(2rem,3.5vw,3rem);font-weight:900;letter-spacing:-.04em;" class="rv d1">
+        Three Categories,<br>Every Player Type
+      </h2>
+    </div>
+    <div class="cats">
+      <!-- Slots -->
+      <div class="cat rv" onclick="location.href='games.html'">
+        <div class="cat__bg" style="position:absolute;inset:0;overflow:hidden;">
+          <img src="images/media__1774252961950.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.2;filter:grayscale(.25);">
+          <div style="position:absolute;inset:0;background:linear-gradient(145deg,rgba(32,0,0,.92),rgba(5,0,0,.85));"></div>
+          <div style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(220,0,0,.04) 0,rgba(220,0,0,.04) 1px,transparent 1px,transparent 36px);"></div>
+        </div>
+        <div class="cat__body">
+          <div class="cat__tag">35+ Titles</div>
+          <h3 class="cat__title">Slots</h3>
+          <p class="cat__desc">3-reel classics to 1024-way Megaways. The widest certified slot catalogue in B2B.</p>
+          <span class="cat__cta">Try Them Now →</span>
+        </div>
+      </div>
+      <!-- Fishing -->
+      <div class="cat rv d1" onclick="location.href='games.html'">
+        <div class="cat__bg" style="position:absolute;inset:0;overflow:hidden;">
+          <img src="images/media__1774252984633.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.2;filter:grayscale(.25);">
+          <div style="position:absolute;inset:0;background:linear-gradient(145deg,rgba(0,21,32,.92),rgba(0,5,8,.85));"></div>
+          <div style="position:absolute;inset:0;background:repeating-linear-gradient(-45deg,rgba(0,80,120,.05) 0,rgba(0,80,120,.05) 1px,transparent 1px,transparent 36px);"></div>
+        </div>
+        <div class="cat__body">
+          <div class="cat__tag">5 Titles</div>
+          <h3 class="cat__title">Fishing</h3>
+          <p class="cat__desc">Multiplayer action games with real-time boss battles and four tiers of progressive jackpots.</p>
+          <span class="cat__cta">Try Them Now →</span>
+        </div>
+      </div>
+      <!-- Table & Arcade -->
+      <div class="cat rv d2" onclick="location.href='games.html'">
+        <div class="cat__bg" style="position:absolute;inset:0;overflow:hidden;">
+          <img src="images/media__1774253001633.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.2;filter:grayscale(.25);">
+          <div style="position:absolute;inset:0;background:linear-gradient(145deg,rgba(12,0,24,.92),rgba(2,0,6,.85));"></div>
+          <div style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(60,0,80,.05) 0,rgba(60,0,80,.05) 1px,transparent 1px,transparent 36px);"></div>
+        </div>
+        <div class="cat__body">
+          <div class="cat__tag">Table · Bingo · Casino</div>
+          <h3 class="cat__title">Table & Arcade</h3>
+          <p class="cat__desc">Baccarat, bingo, crash, plinko — high-volume table games built for serious operators.</p>
+          <span class="cat__cta">Try Them Now →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 5. PLATFORM FEATURES ════════════════ -->
+<section class="section">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 2fr;gap:56px;align-items:start;margin-bottom:48px;">
+      <div class="rv">
+        <div class="label" style="margin-bottom:14px;">Platform Features</div>
+        <h2 style="font-size:clamp(2rem,3vw,2.8rem);font-weight:900;letter-spacing:-.05em;line-height:1;">
+          Our Unique<br><span style="color:var(--r)">Edge</span>
+        </h2>
+      </div>
+      <div class="rv d2" style="padding-top:20px;">
+        <p style="font-size:.92rem;color:var(--g);line-height:1.78;max-width:540px;">
+          Six proprietary systems — every one designed to maximise session duration, daily active users,
+          and operator revenue without any additional development work on your side.
+        </p>
+      </div>
+    </div>
+
+    <div class="features rv d1">
+      <!-- Tournament — real icon image -->
+      <div class="feat">
+        <div class="feat__head">
+          <div class="feat__icon-placeholder" data-feat-icon="tournament">
+            <svg viewBox="0 0 24 24"><path d="M8 6l4-4 4 4"/><path d="M12 2v13"/><path d="M3 18h18"/><circle cx="12" cy="21" r="1"/></svg>
+          </div>
+          <div class="feat__num">01</div>
+        </div>
+        <h3 class="feat__title">Tournament Engine</h3>
+        <p class="feat__desc">Real-time slot tournaments with live leaderboards and automated prize pools. Configure from your dashboard — zero dev required.</p>
+      </div>
+
+      <!-- Missions — real icon image -->
+      <div class="feat">
+        <div class="feat__head">
+          <div class="feat__icon-placeholder" data-feat-icon="missions">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="feat__num">02</div>
+        </div>
+        <h3 class="feat__title">Missions & Quests</h3>
+        <p class="feat__desc">Daily and weekly challenge systems that drive session frequency. Reward tiers from free spins to VIP cashback.</p>
+      </div>
+
+      <div class="feat">
+        <div class="feat__head">
+          <div class="feat__icon-placeholder">
+            <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <div class="feat__num">03</div>
+        </div>
+        <h3 class="feat__title">Sign-in Bonus</h3>
+        <p class="feat__desc">Escalating daily login rewards synced with your CRM. Personalised bonus calendars that reduce churn.</p>
+      </div>
+
+      <!-- Jackpot — real icon image -->
+      <div class="feat">
+        <div class="feat__head">
+          <div class="feat__icon-placeholder" data-feat-icon="jackpot">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="feat__num">04</div>
+        </div>
+        <h3 class="feat__title">Must Hit By Jackpot</h3>
+        <p class="feat__desc">Guaranteed trigger thresholds create urgency and marketing momentum. Every hit is a campaign opportunity.</p>
+      </div>
+
+      <div class="feat">
+        <div class="feat__head">
+          <div class="feat__icon-placeholder">
+            <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          </div>
+          <div class="feat__num">05</div>
+        </div>
+        <h3 class="feat__title">Linking Jackpot</h3>
+        <p class="feat__desc">Cross-operator prize pools grow faster and trigger more excitement. A proven cross-brand retention and traffic driver.</p>
+      </div>
+
+      <div class="feat">
+        <div class="feat__head">
+          <div class="feat__icon-placeholder">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <div class="feat__num">06</div>
+        </div>
+        <h3 class="feat__title">AI & Data Mining</h3>
+        <p class="feat__desc">Proprietary ML personalises game delivery, predicts churn 7 days in advance, and optimises bonus targeting in real time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 6. OUR SERVICE ════════════════════════ -->
+<section class="section" style="background:var(--s1);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd);">
+  <div class="container">
+    <div style="margin-bottom:48px;">
+      <div class="label rv" style="margin-bottom:14px;">How We Deliver</div>
+      <h2 style="font-size:clamp(2rem,3vw,2.8rem);font-weight:900;letter-spacing:-.04em;" class="rv d1">
+        Three Ways to<br>Go Live
+      </h2>
+    </div>
+    <div class="svcs rv d2">
+      <div class="svc">
+        <div class="svc__num">01</div>
+        <div class="svc__body">
+          <h3 class="svc__title">Seamless API</h3>
+          <p class="svc__desc">Single REST endpoint. Token wallet, webhooks, full sandbox. Certified for MGA, PAGCOR, RCSA environments. Start a live session in as little as 72 hours from contract signing.</p>
+        </div>
+        <span class="svc__tag">72h Setup</span>
+      </div>
+      <div class="svc">
+        <div class="svc__num">02</div>
+        <div class="svc__body">
+          <h3 class="svc__title">White Label</h3>
+          <p class="svc__desc">Full-stack branded casino — custom front-end, payment gateways, KYC/AML, CMS, and affiliate tooling. Your brand. Our infrastructure. Zero server management on your end.</p>
+        </div>
+        <span class="svc__tag">Full Stack</span>
+      </div>
+      <div class="svc">
+        <div class="svc__num">03</div>
+        <div class="svc__body">
+          <h3 class="svc__title">24/7 Support</h3>
+          <p class="svc__desc">Named account manager, dedicated Slack channel, 24/7 on-call engineering. Average first response under 15 minutes. 99.9% uptime SLA. Multilingual team covering all time zones.</p>
+        </div>
+        <span class="svc__tag">99.9% SLA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ 7. PARTNER MARQUEE ═══════════════════ -->
+<div class="marquee-section">
+  <div class="marquee-hint">Trusted by leading operators worldwide</div>
+  <div class="mq-strip">
+    <div class="mq-inner">
+      <span class="mq-name">bet365</span><span class="mq-sep"></span>
+      <span class="mq-name">Betsson</span><span class="mq-sep"></span>
+      <span class="mq-name">ComeOn</span><span class="mq-sep"></span>
+      <span class="mq-name">Flutter</span><span class="mq-sep"></span>
+      <span class="mq-name">GiG</span><span class="mq-sep"></span>
+      <span class="mq-name">Kindred</span><span class="mq-sep"></span>
+      <span class="mq-name">LeoVegas</span><span class="mq-sep"></span>
+      <span class="mq-name">888 Holdings</span><span class="mq-sep"></span>
+      <span class="mq-name">Betway</span><span class="mq-sep"></span>
+      <span class="mq-name">William Hill</span><span class="mq-sep"></span>
+      <!-- repeat -->
+      <span class="mq-name">bet365</span><span class="mq-sep"></span>
+      <span class="mq-name">Betsson</span><span class="mq-sep"></span>
+      <span class="mq-name">ComeOn</span><span class="mq-sep"></span>
+      <span class="mq-name">Flutter</span><span class="mq-sep"></span>
+      <span class="mq-name">GiG</span><span class="mq-sep"></span>
+      <span class="mq-name">Kindred</span><span class="mq-sep"></span>
+      <span class="mq-name">LeoVegas</span><span class="mq-sep"></span>
+      <span class="mq-name">888 Holdings</span><span class="mq-sep"></span>
+      <span class="mq-name">Betway</span><span class="mq-sep"></span>
+      <span class="mq-name">William Hill</span><span class="mq-sep"></span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ 8. CONTACT CTA ════════════════════════ -->
+<div class="cta-banner">
+  <div class="container cta-banner__inner rv">
+    <p class="cta-banner__sup">Ready to Go Live?</p>
+    <h2 class="cta-banner__title">Join 3,000+<br>Operators.</h2>
+    <p class="cta-banner__sub">Integration in 72 hours. No upfront fees. Full technical support from day one.</p>
+    <div class="cta-banner__btns">
+      <a href="contact.html" class="btn btn--outline">Contact Sales →</a>
+      <a href="games.html"   class="btn btn--outline">View Game Portfolio</a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ FOOTER ════════════════════════════════ -->
+<footer class="footer">
+  <div style="overflow:hidden;max-height:220px;">
+    <img src="images/footer_banner_1774253345615.png" alt="Fastone — B2B Gaming Platform" style="width:100%;height:220px;object-fit:cover;filter:brightness(.65);display:block;">
+  </div>
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__logo">FAST<span>ONE</span></div>
+        <p class="footer__about">The fastest games in the industry. Premium B2B casino content powering operators across 35+ markets worldwide.</p>
+        <div class="lang-grp">
+          <button class="on">EN</button><button>CN</button><button>TH</button><button>JP</button>
+        </div>
+      </div>
+      <div>
+        <div class="footer__col-title">Navigation</div>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="company.html">Company</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">Categories</div>
+        <ul class="footer__links">
+          <li><a href="games.html">Slots</a></li>
+          <li><a href="games.html">Fishing</a></li>
+          <li><a href="games.html">Table Games</a></li>
+          <li><a href="games.html">Bingo</a></li>
+          <li><a href="games.html">Casino</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">Company</div>
+        <ul class="footer__links">
+          <li><a href="company.html">About Us</a></li>
+          <li><a href="company.html">Platform</a></li>
+          <li><a href="contact.html">Partnerships</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2024 Fastone.com. All rights reserved. B2B only.</p>
+      <div class="footer__badges">
+        <span class="badge">Certified RNG</span>
+        <span class="badge">Responsible Gaming</span>
+        <span class="badge">18+</span>
+        <span class="badge">GDPR</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
